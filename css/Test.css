@@ -1,0 +1,406 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(25, 70, 79) 100%);
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+}
+.color-hover:hover{
+    color: rgb(18, 69, 224);
+    text-decoration: underline;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.Position{
+    position: fixed;
+    top:0%;
+    left: 0;
+    right: 0;
+    z-index: 1037;
+    
+}
+.pd{
+    padding:0 15px;
+    color: white;
+    font-size: 20px;
+}
+.charater{
+    color: white;
+    font-size: 16px;
+}
+.dropdown-hover{
+    background-color: red;
+}
+/*========================= Off Canvas ===================*/
+.color-head-canvas{
+    background-color: #007bff;
+}
+.offcanvas-title{
+   position: absolute;
+   left: 20%;
+   right: 0;
+   color: #fff;
+}
+.offcanvas-body{
+    background-color: #000000;
+} 
+.controll-icon{
+    
+    background-color: #f81313;
+    border-radius: 7px;
+ }
+.controll-icon:hover{
+    background-color: #000000;
+    border-radius: 7px;
+ }
+ 
+.icon-select{
+    padding:8px 15px;    
+    margin: 15px 15px;
+    color:#fff;
+    font-size: 20px;
+    }
+    .icon-side{
+        color: #fff;
+    }
+/*========================= Advertise ===================*/
+.advertisement-card {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    background: #000;
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.advertisement-card img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.advertisement-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+}
+.advertisement-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.advertisement-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ff5a5a;
+}
+.advertisement-content .btn-shop {
+    padding: 10px 25px;
+    background: #ff5a5a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.advertisement-content .btn-shop:hover {
+    background: #ff2a2a;
+}
+.advertisement-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+/*============================== Promo Section ============================== */
+.promo-section {
+    background: linear-gradient(to right, #e7f1ff, #f0faff);
+    padding: 60px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+.promo-section .deal-badge {
+    background: #0d6efd;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.promo-section h1 {
+    font-weight: 700;
+    color: #0d6efd;
+}
+.promo-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+.promo-section .btn-primary {
+    background: #0d6efd;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.promo-section .btn-primary:hover {
+    background: #0056b3;
+}
+.promo-section .timer {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c757d;
+    margin-top: 20px;
+}
+.promo-section .timer span {
+    color: #0d6efd;
+}
+.promo-image {
+    max-width: 100%;
+    border-radius: 15px;
+    z-index: 1; /* Ensure image stays above the circle */
+    position: relative;
+}
+.promo-section .background-circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(13, 110, 253, 0.1);
+    border-radius: 50%;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0; /* Ensure the circle stays behind the image */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .promo-section .background-circle {
+        width: 300px;
+        height: 300px;
+        right: 5%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo-section .background-circle {
+        width: 250px;
+        height: 250px;
+        top: 70%;
+        right: 0%;
+    }
+}
+
+/*============================== College tion ==============================*/
+.container-colege{
+   padding:2rem 0;
+}
+.product-card-1 {
+    background-color: #000;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product-card-1 img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+.product-card-1 .new-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(255, 20, 20);
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.see-more-btn {
+    margin-top: 20px;
+    background-color: #eb1111;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.see-more-btn:hover {
+    background-color: #ff3b3b;
+}
+/*============================== *Reacting* ===============================*/
+.container-Re{
+    padding:2rem 5rem;
+    background-color: #192430;
+}
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+.sale-badge {
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.price-details h2 {
+    font-size: 24px;
+}
+
+.price-details p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+/*============================= container =============================*/
+.control-container{
+    background-color: rgb(65, 52, 52);
+    text-align: center;
+
+}
+.head-col{
+    text-align: center;
+   padding: 25px 0;
+   color: azure;
+}
+.head-col:hover{
+    color: red;
+}
+.card-color{
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.btn-overide{
+    border-radius:50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 2, 1);
+}
+.btn-overide:hover{
+    background-color: rgb(248, 15, 15);
+    color: rgb(255, 255, 255);
+
+}
+.fa-cart-shopping{
+    color: rgb(7, 7, 7);
+    font-size: 17px;
+    padding:0 8px;
+}
+.fa-cart-shopping:hover{
+    color: white;
+}
+
+
+
+ .custom-img{
+   /*border-radius: 50%;*/
+   text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto 0px auto;
+}
+.card:hover{
+    animation: scaleAnimation 1s infinite alternate;
+    cursor: pointer;
+}
+@keyframes scaleAnimation{
+   0%{
+    transform: scale(1)
+   } 
+   100%{
+        transform: scale(1.1);
+   }
+}
+.icon-search{
+    color: white;
+}
+.icon-search:hover{
+    cursor: pointer;
+    transform:scale(1.3) rotate(15deg);
+}
+
+.removeBG-Color{
+    background-color: white;
+    border-right:0px;
+}
+.removeBorder{
+    border-left: 0px;
+}
+.container-footer{
+    background-color: #3d3c3c;
+}
+/* ===========================================show Product ======================================= */
+
+.category {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .category img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .category:hover {
+    background-color: #004d99;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.1);
+  }
+  .category:hover img {
+    background-color: white;
+  }
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+/*============================ Footer ============================ */
+.icon-select-1{
+    margin: 15px 0;
+    color: #fffbfb;
+    font-size: 20px;
+}
+.icon-select-1:hover{
+    color:blue;
+}

@@ -1,0 +1,225 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(25, 70, 79) 100%);
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+}
+.color-hover:hover{
+    color: rgb(18, 69, 224);
+    text-decoration: underline;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.Position{
+    position: fixed;
+    top:0%;
+    left: 0;
+    right: 0;
+    z-index: 1037;
+    
+}
+.pd{
+    padding:0 15px;
+    color: white;
+    font-size: 20px;
+}
+.charater{
+    color: white;
+    font-size: 16px;
+}
+.dropdown-hover{
+    background-color: red;
+}
+/*========================= Off Canvas ===================*/
+.color-head-canvas{
+    background-color: #007bff;
+}
+.offcanvas-title{
+   position: absolute;
+   left: 20%;
+   right: 0;
+   color: #fff;
+}
+.offcanvas-body{
+    background-color: #000000;
+} 
+.controll-icon{
+    
+    background-color: #f81313;
+    border-radius: 7px;
+ }
+.controll-icon:hover{
+    background-color: #000000;
+    border-radius: 7px;
+ }
+ 
+.icon-select{
+    padding:8px 15px;    
+    margin: 15px 15px;
+    color:#fff;
+    font-size: 20px;
+    }
+    .icon-side{
+        color: #fff;
+    }
+
+/* ================================= Make Product detail ================================= */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .hero-text {
+    max-width: 50%;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .hero-buttons .btn {
+    margin-right: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hero-buttons .btn-primary {
+    background-color: #0056d6;
+    border: none;
+  }
+  .hero-buttons .btn-primary:hover {
+    background-color: #003ca6;
+  }
+  .hero-buttons .btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  .hero-buttons .btn-secondary:hover {
+    background-color: white;
+    color: #0d1b4a;
+  }
+  .product-image {
+    position: relative;
+    max-width: 50%;
+  }
+  .product-image img {
+    width: 100%;
+    animation: fadeInUp 1.5s ease-out;
+  }
+  .product-tag {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: bounceIn 1.2s ease-out;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+    /*======================================get product =====================  */
+    .d-proudct{
+        color: #000000;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .card {
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .card img {
+        max-height: 200px;
+        object-fit: contain;
+    }
+    .price {
+        color: #ff4757;
+        font-weight: bold;
+    }
+    .stars {
+        color: #ffa502;
+    }
+/* =========================================== Product ======================================= */
+
+.category {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .category img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .category:hover {
+    background-color: #004d99;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.1);
+  }
+  .category:hover img {
+    background-color: white;
+  }
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/*============================ Footer ============================ */
+.icon-select-1{
+    margin: 15px 0;
+    color: #fffbfb;
+    font-size: 20px;
+}
+.icon-select-1:hover{
+    color:blue;
+}    

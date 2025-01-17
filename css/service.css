@@ -1,0 +1,179 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(25, 70, 79) 100%);
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+}
+.color-hover:hover{
+    color: rgb(18, 69, 224);
+    text-decoration: underline;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.Position{
+    position: fixed;
+    top:0%;
+    left: 0;
+    right: 0;
+    z-index: 1037;
+    
+}
+.pd{
+    padding:0 15px;
+    color: white;
+    font-size: 20px;
+}
+.charater{
+    color: white;
+    font-size: 16px;
+}
+.dropdown-hover{
+    background-color: red;
+}
+/*========================= Off Canvas ===================*/
+.color-head-canvas{
+    background-color: #007bff;
+}
+.offcanvas-title{
+   position: absolute;
+   left: 20%;
+   right: 0;
+   color: #fff;
+}
+.offcanvas-body{
+    background-color: #000000;
+} 
+.controll-icon{
+    
+    background-color: #f81313;
+    border-radius: 7px;
+ }
+.controll-icon:hover{
+    background-color: #000000;
+    border-radius: 7px;
+ }
+ 
+.icon-select{
+    padding:8px 15px;    
+    margin: 15px 15px;
+    color:#fff;
+    font-size: 20px;
+    }
+    .icon-side{
+        color: #fff;
+    }
+
+    /* ======================== Service ======================= */
+    
+    .img-card{
+        max-width: 250px;
+        max-height: 300px;
+    }
+    .img-card-1{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    .about-us {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .about-us h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .about-us h2 span {
+        color: #6c63ff; /* Example color */
+      }
+      .services {
+        margin-top: 50px;
+        text-align: center;
+      }
+      .services h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      .service-card {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+      .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+   /*============================= Map =====================  */
+
+   .container-Map {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  .head-Map {
+    padding: 2rem 0rem;
+    color: #f81313;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+  }
+
+  .img-Map {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+  }
+
+/* ===========================================show Product ======================================= */
+
+.category {
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.category img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.category:hover {
+  background-color: #004d99;
+  color: white;
+  border-radius: 15px;
+  transform: scale(1.1);
+}
+.category:hover img {
+  background-color: white;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/*============================ Footer ============================ */
+.icon-select-1{
+    margin: 15px 0;
+    color: #fffbfb;
+    font-size: 20px;
+}
+.icon-select-1:hover{
+    color:blue;
+}    

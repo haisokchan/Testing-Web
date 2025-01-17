@@ -1,0 +1,159 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(25, 70, 79) 100%);
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+}
+.color-hover:hover{
+    color: rgb(18, 69, 224);
+    text-decoration: underline;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.Position{
+    position: fixed;
+    top:0%;
+    left: 0;
+    right: 0;
+    z-index: 1037;
+    
+}
+.pd{
+    padding:0 15px;
+    color: white;
+    font-size: 20px;
+}
+.charater{
+    color: white;
+    font-size: 16px;
+}
+.dropdown-hover{
+    background-color: red;
+}
+/*========================= Off Canvas ===================*/
+.color-head-canvas{
+    background-color: #007bff;
+}
+.offcanvas-title{
+   position: absolute;
+   left: 20%;
+   right: 0;
+   color: #fff;
+}
+.offcanvas-body{
+    background-color: #000000;
+} 
+.controll-icon{
+    
+    background-color: #f81313;
+    border-radius: 7px;
+ }
+.controll-icon:hover{
+    background-color: #000000;
+    border-radius: 7px;
+ }
+ 
+.icon-select{
+    padding:8px 15px;    
+    margin: 15px 15px;
+    color:#fff;
+    font-size: 20px;
+    }
+    .icon-side{
+        color: #fff;
+    }
+
+/*============================= Form =============================*/
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    background: linear-gradient(135deg, #004aad, #00a8e8);
+    border-radius: 15px;
+    padding: 40px;
+    color: white;
+}
+.form-section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form-section h2 {
+    color: #004aad;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #004aad;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.btn-custom:hover {
+    background-color: #003a8d;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon-login{
+    padding: 10px;
+    color: #004aad;
+    font-size: 20px;
+}
+.name-login{
+    color: #004aad;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===========================================show Product ======================================= */
+
+.category {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .category img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .category:hover {
+    background-color: #004d99;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.1);
+  }
+  .category:hover img {
+    background-color: white;
+  }
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+/*============================ Footer ============================ */
+.icon-select-1{
+    margin: 15px 0;
+    color: #fffbfb;
+    font-size: 20px;
+}
+.icon-select-1:hover{
+    color:blue;
+}    

@@ -1,0 +1,164 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(25, 70, 79) 100%);
+}
+.color-hover{
+    color: rgb(255, 255, 255);
+}
+.color-hover:hover{
+    color: rgb(18, 69, 224);
+    text-decoration: underline;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.Position{
+    position: fixed;
+    top:0%;
+    left: 0;
+    right: 0;
+    z-index: 1037;
+    
+}
+.pd{
+    padding:0 15px;
+    color: white;
+    font-size: 20px;
+}
+.charater{
+    color: white;
+    font-size: 16px;
+}
+.dropdown-hover{
+    background-color: red;
+}
+/*========================= Off Canvas ===================*/
+.color-head-canvas{
+    background-color: #007bff;
+}
+.offcanvas-title{
+   position: absolute;
+   left: 20%;
+   right: 0;
+   color: #fff;
+}
+.offcanvas-body{
+    background-color: #000000;
+} 
+.controll-icon{
+    
+    background-color: #f81313;
+    border-radius: 7px;
+ }
+.controll-icon:hover{
+    background-color: #000000;
+    border-radius: 7px;
+ }
+ 
+.icon-select{
+    padding:8px 15px;    
+    margin: 15px 15px;
+    color:#fff;
+    font-size: 20px;
+    }
+    .icon-side{
+        color: #fff;
+    }
+/*============================= Detai About =========================*/
+
+.about-us-section {
+    padding: 4rem 2rem;
+  }
+  .by-the-numbers {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .stat-card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .stat-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+/* ============================ get About ========================== */
+.service-card {
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  .service-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .badge-number {
+    font-size: 1rem;
+    background-color: #6c63ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+  }
+  .card-header {
+    position: relative;
+  }
+
+/* ===========================================show Product ======================================= */
+
+.category {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .category img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .category:hover {
+    background-color: #004d99;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.1);
+  }
+  .category:hover img {
+    background-color: white;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+
+  /*============================ Footer ============================ */
+.icon-select-1{
+    margin: 15px 0;
+    color: #fffbfb;
+    font-size: 20px;
+}
+.icon-select-1:hover{
+    color:blue;
+}    
